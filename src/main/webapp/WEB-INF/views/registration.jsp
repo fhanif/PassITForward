@@ -44,14 +44,27 @@
         </div>
 
         <!-- Select Basic -->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="selectbasic">Select country</label>
-            <div class="col-md-4">
-                <select id="selectbasic" name="selectbasic" class="form-control">
-                    <option value="1">Option one</option>
-                    <option value="2">Option two</option>
-                </select>
-            </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" name="" id="java" value="checkedValue" checked>
+                Java<br>
+                <input type="checkbox" class="form-check-input" name="" id="javascript" value="checkedValue" checked>
+                Javascript<br>
+                <input type="checkbox" class="form-check-input" name="" id="C++" value="checkedValue" checked>
+                C++<br>
+                <input type="checkbox" class="form-check-input" name="" id="Python" value="checkedValue" checked>
+                Python<br>
+                <input type="checkbox" class="form-check-input" name="" id="Ruby" value="checkedValue" checked>
+                Ruby<br>
+                <input type="checkbox" class="form-check-input" name="" id="HTML" value="checkedValue" checked>
+                HTML<br>
+                <input type="checkbox" class="form-check-input" name="" id="CSS" value="checkedValue" checked>
+                CSS<br>
+                <input type="checkbox" class="form-check-input" name="" id="SQL" value="checkedValue" checked>
+                SQL<br>
+                <input type="checkbox" class="form-check-input" name="" id="C#" value="checkedValue" checked>
+                C#<br>
+            </label>
         </div>
 
         <!-- Text input-->
@@ -80,6 +93,8 @@
 
             </div>
         </div>
+
+
 
 
         <!--ADD IN CHECK BOXES FOR LANGUAGES:
