@@ -11,12 +11,20 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
 
     @RequestMapping("/")
+    public String welcome() {
+        return "welcome";
+    }
 
-    public ModelAndView helloWorld()
-    {
-        return new
-                ModelAndView("welcome","message","Hello World");
+    @RequestMapping("/registration")
+    //the String method returns the jsp page that we want to show
+    public String registration() {
+        return "registration";
+    }
 
+    @RequestMapping("/projectselect")
+    //the String method returns the jsp page that we want to show
+    public String pojectselect() {
+        return "projectselect";
     }
 
 }
