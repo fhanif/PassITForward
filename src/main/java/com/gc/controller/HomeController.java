@@ -15,7 +15,7 @@ public class HomeController {
         return "welcome";
     }
 
-    @RequestMapping("/registration")
+    @RequestMapping("/create-profile")
     //the String method returns the jsp page that we want to show
     public String registration() {
         return "registration";
@@ -23,8 +23,13 @@ public class HomeController {
 
     @RequestMapping("/projectselect")
     //the String method returns the jsp page that we want to show
-    public String pojectselect() {
+    public String projectselect() {
         return "projectselect";
     }
 
+    @RequestMapping("/languages-select")
+    //the String method returns the jsp page that we want to show
+    public String languageselect() {
+        return "languageselect";
+    }
 }

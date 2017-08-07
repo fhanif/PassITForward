@@ -22,6 +22,7 @@
 <div class="container">
 
     <form class="form-signin">
+        <h1>Welcome to PassITforward------></h1>
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
@@ -33,6 +34,7 @@
             </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        Not a user? <a href="/create-profile">Register now!</a>
     </form>
 
 </div> <!-- /container -->

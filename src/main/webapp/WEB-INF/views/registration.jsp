@@ -18,6 +18,7 @@
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
+<form method="post" action="/languages-select">
 <form class="form-horizontal">
     <fieldset>
 
@@ -79,6 +80,20 @@
 
             </div>
         </div>
+
+
+        <!--ADD IN CHECK BOXES FOR LANGUAGES:
+         Which programming languages are you proficient in? Please select all that apply:
+    <br>
+    Java<input type="checkbox" name="languages">
+    JavaScript<input type="checkbox" name="languages">
+    C++<input type="checkbox" name="languages">
+    Python<input type="checkbox" name="languages">
+    Ruby on Rails<input type="checkbox" name="languages">
+    HTML<input type="checkbox" name="languages">
+    CSS<input type="checkbox" name="languages">
+    SQL<input type="checkbox" name="languages">
+    C#<input type="checkbox" name="languages">-->
 
         <!-- Button -->
         <div class="form-group">

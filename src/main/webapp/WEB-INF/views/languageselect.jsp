@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Choose a language</title>
 </head>
 <body>
-
+Choose a language to work on!
 </body>
 </html>
