@@ -18,7 +18,7 @@
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 <body>
-<form method="post" action="/languages-select">
+<form method="post" action="/create-profile">
 <form class="form-horizontal">
     <fieldset>
 
@@ -29,7 +29,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="textinput">First name</label>
             <div class="col-md-4">
-                <input id="textinput" name="textinput" type="text" placeholder="John" class="form-control input-md" required="">
+                <input id="textinput" name="firstName" type="text" placeholder="John" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -38,7 +38,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="textinput">Last name</label>
             <div class="col-md-4">
-                <input id="textinput" name="textinput" type="text" placeholder="Smith" class="form-control input-md" required="">
+                <input id="textinput" name="lastName" type="text" placeholder="Smith" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -80,7 +80,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="passwordinput">Password</label>
             <div class="col-md-4">
-                <input id="passwordinput" name="passwordinput" type="password" placeholder="Enter your password" class="form-control input-md" required="">
+                <input id="passwordinput" name="password" type="password" placeholder="Enter your password" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -114,7 +114,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="singlebutton"></label>
             <div class="col-md-4">
-                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Register</button>
+                <button id="singlebutton" name="register" class="btn btn-primary">Register</button>
             </div>
         </div>
 
