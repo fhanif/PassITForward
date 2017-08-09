@@ -6,6 +6,7 @@ package com.gc.controller;
 
 
 import com.gc.com.model.test.UsersEntity;
+import com.test.models.UsersEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
